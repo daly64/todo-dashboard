@@ -1,0 +1,13 @@
+<svg width="26" height="26" viewBox="0 0 26 26" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="More" opacity="1">
+<g id="Box" opacity="1">
+<rect width="26" height="26" rx="13" fill="none"/>
+<rect x="1" y="1" width="24" height="24" rx="12" stroke="#fff"/>
+</g>
+<g id="Icon"  opacity="1">
+<circle id="Vector" cx="17" cy="13" r="1" fill="white"/>
+<circle id="Vector_2" cx="13" cy="13" r="1" fill="white"/>
+<circle id="Vector_3" cx="9" cy="13" r="1" fill="white"/>
+</g>
+</g>
+</svg>

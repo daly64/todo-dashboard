@@ -1,0 +1,31 @@
+@font-face {
+  font-family: "exo2Bold";
+  src: url("assets/fonts/Exo2-Bold.ttf");
+}
+@font-face {
+  font-family: "exo2SemiBold";
+  src: url("assets/fonts/Exo2-SemiBold.ttf");
+}
+@font-face {
+  font-family: "exo2Medium";
+  src: url("assets/fonts/Exo2-Medium.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: "exo2Medium";
+  box-sizing: border-box;
+}
+:root {
+  --white-100: rgba(255, 255, 255, 1);
+  --white-40: rgba(255, 255, 255, 0.4);
+  --white-20: rgba(255, 255, 255, 0.2);
+  --white-10: rgba(255, 255, 255, 0.1);
+  --black-100: rgba(28, 29, 34, 1);
+  --black-50: rgba(28, 29, 34, 0.5);
+  --fs-xl: 30px;
+  --fs-l: 20px;
+  --fs-md: 16px;
+  --fs-s: 14px;
+}
