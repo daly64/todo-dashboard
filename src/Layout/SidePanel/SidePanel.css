@@ -1,0 +1,6 @@
+.SidePanel {
+  border-right: 1px solid var(--black-100);
+  width: 26dvw;
+  display: flex;
+  flex-direction: row;
+}

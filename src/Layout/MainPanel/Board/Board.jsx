@@ -1,17 +1,9 @@
-import styled from "styled-components";
-
-const Style = styled.div`
-  height: 91dvh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-`;
+import "./Board.css";
 const Board = () => {
   return (
-    <Style>
+    <div className="Board">
       <p>board</p>
-    </Style>
+    </div>
   );
 };
 

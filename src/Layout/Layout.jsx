@@ -1,20 +1,12 @@
 import SidePanel from "./SidePanel/SidePanel";
 import MainPanel from "./mainPanel/MainPanel";
-import styled from "styled-components";
-
-const Style = styled.div`
-  @import "./base.css";
-  display: flex;
-  flex-direction: row;
-  width: 100dvw;
-  height: 100dvh;
-`;
+import "./Layout.css";
 const Layout = () => {
   return (
-    <Style>
+    <div className="Layout">
       <SidePanel />
       <MainPanel />
-    </Style>
+    </div>
   );
 };
 

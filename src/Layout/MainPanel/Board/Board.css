@@ -1,0 +1,7 @@
+.Board {
+  height: 91dvh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

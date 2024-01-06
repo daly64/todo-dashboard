@@ -1,20 +1,9 @@
-import styled from "styled-components";
-const Style = styled.div`
-  display: flex;
-  flex-direction: row;
-  width: 20dvw;
-  text-orientation: upright;
-  writing-mode: vertical-lr;
-  justify-content: center;
-  align-items: center;
-  background-color: var(--white-100);
-  color: var(--black-100);
-`;
+import "./ProjectsList.css";
 const ProjectsList = () => {
   return (
-    <Style>
+    <div className="ProjectsList">
       <p>projects list</p>
-    </Style>
+    </div>
   );
 };
 

@@ -1,18 +1,9 @@
-import styled from "styled-components";
-
-const Style = styled.div`
-  border-bottom: 1px solid var(--black-100);
-  height: 9dvh;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-`;
+import "./StatusBare.css";
 const StatusBare = () => {
   return (
-    <Style>
+    <div className="StatusBare">
       <p>status bare</p>
-    </Style>
+    </div>
   );
 };
 

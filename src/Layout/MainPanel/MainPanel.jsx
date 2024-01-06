@@ -1,18 +1,13 @@
-import styled from "styled-components";
+import "./MainPanel.css"
 import Board from "./Board/Board";
 import StatusBare from "./StatusBare/StatusBare";
 
-const Style = styled.div`
-  width: 80dvw;
-  display: flex;
-  flex-direction: column;
-`;
 const MainPanel = () => {
   return (
-    <Style>
+    <div className="MainPanel">
       <StatusBare />
       <Board />
-    </Style>
+    </div>
   );
 };
 

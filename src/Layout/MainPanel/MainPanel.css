@@ -1,0 +1,5 @@
+.MainPanel {
+  width: 80dvw;
+  display: flex;
+  flex-direction: column;
+}
