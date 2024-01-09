@@ -1,0 +1,15 @@
+.Spacer {
+  height: 20dvh;
+}
+img {
+  padding: 2dvh 3dvw;
+}
+img.Icon:hover {
+  background-color: var(--white-20);
+  padding: 2dvh 3dvw;
+}
+img.Icon:active {
+  background-color: var(--white-40);
+  border-radius: 50%;
+  padding: 2dvh 1dvw;
+}
