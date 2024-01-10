@@ -1,4 +1,3 @@
-import "./MainPanel.css"
 import Board from "./Board/Board";
 import StatusBare from "./StatusBare/StatusBare";
 

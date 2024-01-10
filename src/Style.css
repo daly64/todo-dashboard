@@ -1,0 +1,99 @@
+@font-face {
+  font-family: "exo2Bold";
+  src: url("assets/fonts/Exo2-Bold.ttf");
+}
+@font-face {
+  font-family: "exo2SemiBold";
+  src: url("assets/fonts/Exo2-SemiBold.ttf");
+}
+@font-face {
+  font-family: "exo2Medium";
+  src: url("assets/fonts/Exo2-Medium.ttf");
+}
+* {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  font-family: "exo2Medium";
+  box-sizing: border-box;
+}
+:root {
+  --white-100: rgba(255, 255, 255, 1);
+  --white-40: rgba(255, 255, 255, 0.4);
+  --white-20: rgba(255, 255, 255, 0.2);
+  --white-10: rgba(255, 255, 255, 0.1);
+  --black-100: rgba(28, 29, 34, 1);
+  --black-50: rgba(28, 29, 34, 0.5);
+  --fs-xl: 30px;
+  --fs-l: 20px;
+  --fs-md: 16px;
+  --fs-s: 14px;
+}
+.Layout {
+  display: flex;
+  flex-direction: row;
+  width: 100dvw;
+  height: 100dvh;
+}
+.SidePanel {
+  border-right: 1px solid var(--black-100);
+  width: 26dvw;
+  display: flex;
+  flex-direction: row;
+}
+.SideBare {
+  width: 6dvw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: var(--black-100);
+}
+
+img {
+  padding: 2dvh 3dvw;
+}
+img.Icon:hover {
+  background-color: var(--white-20);
+  padding: 2dvh 3dvw;
+}
+img.Icon:active {
+  background-color: var(--white-40);
+  border-radius: 50%;
+  padding: 2dvh 1dvw;
+}
+.Spacer {
+  height: 20dvh;
+}
+.ProjectsList {
+  display: flex;
+  flex-direction: row;
+  width: 20dvw;
+  text-orientation: upright;
+  writing-mode: vertical-lr;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--white-100);
+  color: var(--black-100);
+}
+
+.MainPanel {
+  width: 80dvw;
+  display: flex;
+  flex-direction: column;
+}
+.StatusBare {
+  border-bottom: 1px solid var(--black-100);
+  height: 9dvh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.Board {
+  height: 91dvh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}

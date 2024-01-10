@@ -1,5 +1,5 @@
 import Layout from "./Layout/Layout";
-import "./base.css";
+import "./Style.css";
 const App= () => {
   return <Layout />;
 };

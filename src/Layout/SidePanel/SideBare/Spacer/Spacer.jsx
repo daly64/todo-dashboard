@@ -1,8 +1,5 @@
-import React from "react";
-
-function Spacer({ height = 10 }) {
-  // to update notes
-  return <div style={{ height: `${height}dvh` }} />;
+function Spacer() {
+  return <div className="Spacer" />;
 }
 
 export default Spacer;

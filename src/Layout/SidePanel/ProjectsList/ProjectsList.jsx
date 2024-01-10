@@ -1,4 +1,3 @@
-import "./ProjectsList.css";
 const ProjectsList = () => {
   return (
     <div className="ProjectsList">

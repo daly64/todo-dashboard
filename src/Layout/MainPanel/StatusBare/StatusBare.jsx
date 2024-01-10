@@ -1,4 +1,3 @@
-import "./StatusBare.css";
 const StatusBare = () => {
   return (
     <div className="StatusBare">

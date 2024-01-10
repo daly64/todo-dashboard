@@ -1,8 +1,0 @@
-.SideBare {
-  width: 6dvw;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: space-evenly;
-  background-color: var(--black-100);
-}
