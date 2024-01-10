@@ -52,6 +52,7 @@
 
 img {
   padding: 2dvh 3dvw;
+  height: 2.3rem;
 }
 img.Icon:hover {
   background-color: var(--white-20);
