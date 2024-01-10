@@ -2,10 +2,11 @@ import React from "react";
 import "./Icon.css";
 import icons from "./Icons.json";
 
-function Icon({ name, className="" }) {
-  let icon = icons.find((icon) => {
+function Icon({ name, className = "" }) {
+  function toFindIcon(icon) {
     return icon.name == name;
-  });
+  }
+  let icon = icons.find(toFindIcon);
 
   return (
     <>

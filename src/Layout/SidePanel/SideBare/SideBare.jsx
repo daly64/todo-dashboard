@@ -1,5 +1,6 @@
 import Icon from "./Icon/Icon";
 import "./SideBare.css";
+import Spacer from "./Spacer/Spacer";
 const SideBare = () => {
   return (
     <div className="SideBare">
@@ -11,7 +12,7 @@ const SideBare = () => {
       <Icon name={"statics"} className="Icon" />
       <Icon name={"downloads"} className="Icon" />
       <Icon name={"settings"} className="Icon" />
-      <div className="Spacer" />
+      <Spacer height={20} />
       <Icon name={"exit"} className="Icon" />
     </div>
   );
