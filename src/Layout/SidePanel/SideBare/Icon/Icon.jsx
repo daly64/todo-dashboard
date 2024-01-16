@@ -1,3 +1,19 @@
+import styled from "styled-components";
+const IconStyle = styled.div`
+  img {
+    padding: 2dvh 3dvw;
+    height: 7dvh;
+  }
+  img.Icon:hover {
+    background-color: var(--white-20);
+    padding: 2dvh 3dvw;
+  }
+  img.Icon:active {
+    background-color: var(--white-40);
+    border-radius: 50%;
+    padding: 2dvh 1dvw;
+  }
+`;
 let icons = [
   { name: "three-points", src: "/src/assets/icons/three-points.svg" },
   { name: "logo", src: "/src/assets/icons/logo.svg" },
@@ -18,9 +34,9 @@ function Icon({ name = "", className = "" }) {
   let icon = icons.find(toFindIcon);
 
   return (
-    <>
+    <IconStyle>
       <img className={className} src={icon.src} alt={icon.name} />
-    </>
+    </IconStyle>
   );
 }
 

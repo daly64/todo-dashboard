@@ -1,5 +1,9 @@
+import styled from "styled-components";
+const SpacerStyle = styled.div`
+  height: 20dvh;
+`;
 function Spacer() {
-  return <div className="Spacer" />;
+  return <SpacerStyle />;
 }
 
 export default Spacer;

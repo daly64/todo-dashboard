@@ -1,8 +1,16 @@
+import styled from "styled-components";
+const BoardStyle = styled.div`
+  height: 91dvh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+`;
 const Board = () => {
   return (
-    <div className="Board">
+    <BoardStyle>
       <p>board</p>
-    </div>
+    </BoardStyle>
   );
 };
 
